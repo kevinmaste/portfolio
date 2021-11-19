@@ -10,7 +10,7 @@ const NavMaster = () => {
         <>
             <NewNavbar variant="light" sticky="top" expand="lg" >
                 <Container className="align-items-center">
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand href="/portfolio">
                         <Logo src={logo} alt="logo" />
                         <strong>kevdev.jsk</strong>
                     </Navbar.Brand>

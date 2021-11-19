@@ -65,7 +65,7 @@ const Contact = () => {
                             <div className="grey-text">
                                 <MDBInput value={name} onChange={(e => setName(e.target.value))} label="Your name" group type="text" validate error="wrong" success="right"/>
                                 <MDBInput value={subject} onChange={(e => setSubject(e.target.value))} label="Subject"  group type="text" validate error="wrong" success="right"/>
-                                <MDBInput value={message} onChange={(e => setMessage(e.target.value))} label="Your message"  group type="textarea" rows={3} validate error="wrong"/>
+                                <MDBInput value={message} onChange={(e => setMessage(e.target.value))} label="Your message"  group type="textarea" rows={3} validate error="wrong" required/>
                             </div>
                             <div className="text-center">
                                 <button className="btn btn-amber">

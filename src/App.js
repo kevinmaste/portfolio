@@ -18,7 +18,7 @@ function App() {
             <Router>
                 <NavMaster/>
                 <Routes>
-                        <Route exact path="/" element={<Home/>} />
+                        <Route exact path="/portfolio" element={<Home/>} />
                         <Route exact path="/contacts" element={<Contact/>}/>
                         <Route exact path="/about" element={<About/>}/>
                         <Route path="*" element={<Notfound/>}/>
