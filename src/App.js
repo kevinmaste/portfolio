@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+//import NavSection from "./components/navSection";
+//import Cardliste from "./components/cardliste";
+import Home from "./components/home";
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Footer from "./components/footer";
+import NavMaster from "./components/navMaster";
+import Contact from "./components/Contact";
+import About from "./components/about";
+import Notfound from "./components/notfound/notfound";
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    return (
+        <div className="App">
+            <Router>
+                <NavMaster/>
+                <Routes>
+                        <Route exact path="/" element={<Home/>} />
+                        <Route exact path="/contacts" element={<Contact/>}/>
+                        <Route exact path="/about" element={<About/>}/>
+                        <Route path="*" element={<Notfound/>}/>
+                </Routes>
+            </Router>
+            <Footer/>
+        </div>
   );
 }
 
