@@ -17,7 +17,7 @@ const NavMaster = () => {
                     <Navbar.Toggle aria-controls="scrolling"></Navbar.Toggle>
                     <Navbar.Collapse id="scrolling" className="justify-content-center">
                         <NewNav className="me-auto my-2 my-lg-0" scrolling>
-                            <Link to="/" className="mr-3">Home</Link>
+                            <Link to="/portfolio" className="mr-3">Home</Link>
                             <Link to="/about" className="mr-3">About</Link>
                             <Link to="/contacts" className="mr-3">Contact</Link>
                         </NewNav>
