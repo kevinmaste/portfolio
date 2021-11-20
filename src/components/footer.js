@@ -13,15 +13,13 @@ const Footer = () => {
         <MDBFooter color="cyan" className="font-small pt-4 mt-4">
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow className="justify-content-end">
-                    <MDBCol md={6}>
+                    <MDBCol md="6">
                         <h5 className="title">Content</h5>
                         <p>
-                            this web site was create by me
-                            for this, i used mdbreact and boostrap for the
-                            frontend
+                            This web site was created by me, for this I used mdbreact and bootstrap for the frontend.
                         </p>
                     </MDBCol>
-                    <MDBCol md={6} className="d-flex flex-column align-items-center">
+                    <MDBCol md="6" className="d-flex flex-column align-items-center">
                         <h5 className="title">Social network</h5>
                         <ul className="d-inline-flex">
                             <li className="list-unstyled">
@@ -41,9 +39,9 @@ const Footer = () => {
                             </li>
                         </ul>
                     </MDBCol>
-                    <MDBCol md={6}>
+                    <MDBCol md="6">
                         {/*'href="#firstsection" ';Mettre une petite  animation hover et au niveau mettre un props pour que sa depende de la page */}
-                        <Link onClick={scrollToUp} rel="noreferrer noopener">
+                        <Link to="" onClick={scrollToUp} rel="noreferrer noopener">
                             <MDBIcon icon="caret-square-up" size="3x"/>
                         </Link>
                     </MDBCol>

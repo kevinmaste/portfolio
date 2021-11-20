@@ -2,8 +2,7 @@ import React from 'react';
 import {MDBContainer} from "mdbreact";
 import notfound from '../../assets/error.png'
 import styled from "styled-components";
-import backgroundBanner from "../../assets/passion.png";
-import moi from "../../assets/mypicture.png";
+
 
 const Notfound = () => {
     return (

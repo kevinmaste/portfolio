@@ -76,7 +76,7 @@ const Contact = () => {
                         </form>
                     </MDBCol>
                     <MDBCol md={6} className="">
-                        <p className="h5 text-center mb-4 font-weight-bold" >Contact us me</p>
+                        <p className="h5 text-center mb-4 font-weight-bold" >Contact me</p>
                         <div>
                             <MDBIcon icon="envelope" size={"2x"}/>
                             <p>E-mail:</p>

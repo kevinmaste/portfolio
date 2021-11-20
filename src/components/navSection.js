@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import banner from "./../assets/firstlook.gif"
-import { MDBIcon, MDBMask, MDBView} from "mdbreact";
+import {MDBAnimation, MDBIcon, MDBMask, MDBView} from "mdbreact";
 import { Link, } from "react-scroll";
 
 
@@ -13,12 +13,15 @@ const NavSection = () => {
             <header>
                 <MDBView src={banner}>
                     <MDBMask overlay="black-strong" className="flex-center flex-column text-white text-center">
-                        <h2>Web Developper Junior</h2>
-                        <h5>
-                            You can leave the comment in the comment section , or send me a message if
-                            you appreciate the web site
-                        </h5>
-                        <p>I'm searching an Alternance</p><br />
+                        <MDBAnimation type="bounceInLeft" delay=".2s">
+                            <h2>Web developer Junior</h2>
+                        </MDBAnimation>
+                        <MDBAnimation type="bounceInLeft" delay=".3s">
+                            <h5>
+                                You can leave the comment in the contact section, if you appreciate the web site.
+                            </h5>
+                            <p>I'm searching an apprenticeship</p><br />
+                        </MDBAnimation>
                         <ButtonUI to={"section1"} smooth={true}  className="btn btn-cyan">
                           Click
                         <MyIcon icon="caret-down"/>

@@ -11,7 +11,7 @@ const Home = () => {
             <NavSection/>
             <main id="section1">
                 <MDBContainer className="text-center my-5">
-                    <p><strong>Welcome to my portefolio</strong></p>
+                    <p><strong>Welcome to my Portfolio</strong></p>
                     <MDBRow>
                         <MDBCol md='6'>
                             <MDBCardJacques
@@ -26,8 +26,7 @@ const Home = () => {
                                             <strong>Jacques Amyot</strong>
                                         </MDBCardTitle>
                                         <p>
-                                            Jacques Amyot, c'est dans ce lycée que j'ai fait mon
-                                            baccalauréat scientifiques spécialité Science-Physique, au cours de l'année 2016-2017.
+                                            Jacques Amyot, c'est dans ce lycée que j'ai fait mon baccalauréat scientifique spécialité Science-Physique, au cours de l'année 2016-2017.
                                         </p>
                                     </div>
                                 </div>
@@ -36,20 +35,19 @@ const Home = () => {
 
                         <MDBCol md="6">
                             <MDBCardSupinfo className="card-image">
-                                <div className="text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4">
-                                    <div>
-                                        <h5 className="pink-text d-inline-flex">
-                                            <MDBIcon icon="school"/><span>School</span>
-                                        </h5>
-                                        <MDBCardTitle tag={"h3"} className="pt-2">
-                                            <strong>Supinfo</strong>
-                                        </MDBCardTitle>
-                                        <p>
-                                            Supinfo, c'est dans cette école que je passe actuellement
-                                            mon cursus universitaire afin de devenir ingénieur dans le domaine de l'informatique.
-                                        </p>
+                                    <div className="text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4">
+                                        <div>
+                                            <h5 className="pink-text d-inline-flex">
+                                                <MDBIcon icon="school"/><span>School</span>
+                                            </h5>
+                                            <MDBCardTitle tag={"h3"} className="pt-2">
+                                                <strong>Supinfo</strong>
+                                            </MDBCardTitle>
+                                            <p>
+                                                Supinfo, c'est dans cette école que je passe actuellement mon cursus universitaire afin de devenir ingénieur dans le domaine de l'informatique.
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
                             </MDBCardSupinfo>
                         </MDBCol>
                     </MDBRow>
